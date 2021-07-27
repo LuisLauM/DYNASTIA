@@ -1,0 +1,17 @@
+Package: DYNASTIA
+Type: Package
+Title: Package for comparing 4 methods of classification (for PhD demo)
+Date: 2021-07-27
+Version: 0.0.1
+Author: Wencheng Lau-Medrano
+Maintainer: Wencheng Lau-Medrano <luis.laum@gmail.com>
+Description: This package was create as a demo for a PhD call and it performs a
+    classification by comparing 4 models (GLM, random forests, SVM and neural networks).
+License: GPL-3
+Encoding: UTF-8
+Imports:
+  yardstick,
+  magrittr,
+  dplyr
+LazyData: true
+RoxygenNote: 7.1.1
